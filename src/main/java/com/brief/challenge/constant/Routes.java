@@ -1,4 +1,4 @@
-package com.brief.challenge.constants;
+package com.brief.challenge.constant;
 
 public class Routes {
 	public final static String PATH = "/v1/brief/challenge/wizeline";
