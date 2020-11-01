@@ -7,8 +7,8 @@ import org.springframework.web.client.RestTemplate;
 public class RestTemplateFactory {
     public static RestTemplate getRestTemplate() {
         var factory = new SimpleClientHttpRequestFactory();
-        factory.setConnectTimeout(3000);
-        factory.setReadTimeout(3000);
+        factory.setConnectTimeout(5000);
+        factory.setReadTimeout(5000);
         return new RestTemplate(factory);
     }
 }
